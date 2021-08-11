@@ -19,14 +19,21 @@ body{
 
 }
 
-header{
+/*.header{
+    width: 100%;
     height: 100vh;
     background-image: linear-gradient(120deg, rgba(246, 212, 101, 0.1) 0%, 
-    rgba(253, 159, 133, 0.1) 100%), url(../img/portada.jpg);
+    rgba(253, 159, 133, 0.1) 100%), url(../img/WhatsApp\ Image\ 2021-08-11\ at\ 2.14.48\ PM.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    background-position: center;
+    background-position: center center;
+    
+}*/
+.portada{
+    width: 100%;
+    height: auto;
+    
 }
 .head{
     text-align: center;
@@ -430,6 +437,7 @@ footer{
     }
 }
 @media screen and(max-width: 500px) {
+  
     .menu-navegacion{
         width: 65vw;
     }
@@ -456,5 +464,6 @@ footer{
         width: 90%;
     }
 }
+
 
 
